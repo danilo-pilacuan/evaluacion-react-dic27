@@ -1,7 +1,7 @@
 .button
 {
     padding: 14px;
-    border-radius: 5px;
+    border-radius: 6px;
 
     &__primary{
         background-color: #2f69fd;
@@ -16,8 +16,8 @@
     }
 
     &__no-radius-left{
-        border-top-right-radius: 5px !important;
-        border-bottom-right-radius: 5px !important;
+        border-top-right-radius: 6px !important;
+        border-bottom-right-radius: 6px !important;
         border-top-left-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
     }

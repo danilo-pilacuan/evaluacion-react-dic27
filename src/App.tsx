@@ -13,6 +13,7 @@ function App() {
       <Button text="HW2"/>
       <Button no_radius_left={true} text="HW2"/>
       <Input name="input1" placeholder="ingrese texto" value='123'/>
+      <Input name="input1" placeholder="ingrese texto" value='123' no_radius_right={true}/>
     </div>
   )
 }
