@@ -4,6 +4,9 @@ import Input from './components/atoms/input/input'
 import Image from './components/atoms/image/image'
 import InputGif from './components/molecules/inputGif/inputGif'
 import ImageCard from './components/molecules/imageCard/imageCard'
+import ImagesContainer from './components/organisms/imagesContainer/imagesContainer'
+import TemplateGifs from './components/templates/templateGifs/templateGifs'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,8 +21,7 @@ function App() {
       <Input name="input1" placeholder="ingrese texto" value='123'/><br />
       <Input name="input1" placeholder="ingrese texto" value='123' no_radius_right={true}/><br />
       <Image url='https://media.tenor.com/Q4qyZizrNGMAAAAi/thor-love-and-thunder-marvel-studios.gif'/> */}
-      <InputGif text='hello'/>
-      
+      <TemplateGifs/>
     </div>
   )
 }
