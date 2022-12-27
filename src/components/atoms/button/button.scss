@@ -1,0 +1,17 @@
+.button
+{
+    padding: 14px;
+    border-radius: 5px;
+
+    &__primary{
+        background-color: #2f69fd;
+        color: #FFF;
+        border: 0;
+    }
+
+    &_secondary{
+        background-color: #fff;
+        color: #9ea0a2;
+        border: 1px solid #9ea0a2;
+    }
+}
