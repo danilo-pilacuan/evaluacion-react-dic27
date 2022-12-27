@@ -9,9 +9,16 @@
         border: 0;
     }
 
-    &_secondary{
+    &__secondary{
         background-color: #fff;
         color: #9ea0a2;
         border: 1px solid #9ea0a2;
+    }
+
+    &__no-radius-left{
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
     }
 }
