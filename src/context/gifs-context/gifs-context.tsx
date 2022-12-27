@@ -5,7 +5,7 @@ import useGif from "./use-gifs/use-gifs";
 export interface GifStateContext {
   gifsList: Gif[];
   completedGifsList: Gif[];
-  addGif: (title: string) => void;
+  addGif: (url: string,author_id:number) => void;
   completeGif: (id: number) => void;
   deleteGif: (id: number) => void;
 }
