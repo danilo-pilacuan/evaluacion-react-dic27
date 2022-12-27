@@ -12,7 +12,7 @@ interface ImageCardProps{
 const ImageCard:FC<ImageCardProps> = ({imageData}) =>{
     return <div className="ImageCard">
         <Image url={imageData.url}/>
-        <Button text="Eliminar" />
+        <Button text="Eliminar" onClick={()=>{}}/>
     </div>
 }
 

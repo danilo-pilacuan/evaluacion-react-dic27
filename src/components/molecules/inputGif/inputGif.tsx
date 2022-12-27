@@ -15,7 +15,10 @@ const InputGif:FC<InputGifProps> = ({text})=>{
 
     return <> 
         <Input value={url} name="img" placeholder="Gif Url" no_radius_right={true} onChange={handleChangeUrl}/>
-        <Button text="Agregar" type="secondary" no_radius_left={true}/>
+        <Button text="Agregar" type="secondary" no_radius_left={true} onClick={() => {
+            addGif(url,1002);
+            setUrl("");
+          }}/>
 
     </>
 }
